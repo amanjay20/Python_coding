@@ -23,4 +23,4 @@ def reverse(num):
     return rev * sign
     
 
-print(reverse(-123))
+print(reverse(1000))
