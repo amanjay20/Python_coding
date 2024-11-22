@@ -23,4 +23,11 @@ def reverse_string(str):
         rev = char + rev
     return rev
 
-print(reverse_string("biryani12345"))
+print(reverse_string("biryani12345")) 
+
+# String consists of special character 
+my_str = "I.am.aman.jay"
+new_str =my_str.split('.')
+rev_new_str = new_str[::-1]
+result = '.'.join(rev_new_str)
+print(result)
