@@ -34,4 +34,4 @@ def Count_digit(num):
 
     return count
 
-print(Count_digit(-100))
+print(Count_digit(-10000))
